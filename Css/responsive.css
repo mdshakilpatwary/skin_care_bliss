@@ -1,0 +1,162 @@
+/* // xx-Small devices (landscape phones, 200px and up) */
+@media (min-width:200px) and (max-width: 375px) {
+
+    /* navigation part start */
+   .navber-left .toggle-menubar{
+    display:block !important;
+    color: #fff;
+    padding-right: 7px !important;
+    }
+    .tab-mobile-none{
+        display: none !important;
+    }
+    .navber-menu{
+        display: none !important;
+    }
+    .navber-left a p {
+        display: none !important;
+    }
+    .navber-right a p {
+        display: none !important;
+    }
+    .navber-left {
+        padding-top: 20px;
+    }
+    .navber-right {
+        padding-top: 20px;
+    }
+    .navber-right .hand-tool{
+        padding-right: 7px !important;
+    }
+    .navber-right .cart-tool{
+        padding-right: 0 !important;
+    }
+    /* navigation part end */
+    /* banner part start */
+   
+    /* banner part end */
+}
+/* // xx-Small devices (landscape phones, 200px and up) */
+/* // x-Small devices (landscape phones, 375px and up) */
+@media (min-width:375px) and (max-width: 576px) { 
+
+     /* navigation part start */
+   .navber-left .toggle-menubar{
+    display:block !important;
+    color: #fff;
+    padding-right: 9px !important;
+    }
+    .navber-menu{
+        display: none !important;
+    }
+    .tab-mobile-none{
+        display: none !important;
+    }
+    .navber-left a p {
+        display: none !important;
+    }
+    .navber-right a p {
+        display: none !important;
+    }
+    .navber-right .hand-tool{
+        padding-right: 7px !important;
+    }
+    .navber-left {
+        padding-top: 20px;
+    }
+    .navber-right {
+        padding-top: 20px;
+    }
+
+    /* navigation part end */
+   
+} 
+@media (min-width: 577px) and (max-width:767px){
+        
+    /* <!-- navigation part responsive css start  --> */
+        .navber-menu{
+            display: none !important;
+        }
+
+   .navber-left .toggle-menubar{
+    display:block !important;
+    color: #fff;
+    padding-right: 15px !important;
+    }
+    .tab-mobile-none{
+        display: none !important;
+    }
+    .navber-left a p {
+        display: none !important;
+    }
+    .navber-right a p {
+        display: none !important;
+    }
+    .navber-left {
+        padding-top: 20px;
+    }
+    .navber-right {
+        padding-top: 20px;
+    }
+    /* navigation part end */
+  /* <!-- navigation part responsive css end  --> */
+
+    
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px){ 
+       /* <!-- navigation part responsive css start  --> */
+       .navber-menu ul li a {
+        padding: 5px 17px;
+        font-size: 15px;
+    }
+    .navber-right .cart-tool{
+        padding-right: 7px !important;
+    }
+            
+      /* <!-- navigation part responsive css end  --> */
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px){ 
+
+         /* <!-- navigation part responsive css start  --> */
+             nav .container-fluid {
+                width: 90% !important;
+           }
+           .navber-right .cart-tool{
+            padding-right: 7px !important;
+        }
+      /* <!-- navigation part responsive css end  --> */
+
+
+
+          
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399px){
+
+             /* <!-- navigation part responsive css start  --> */
+                  nav .container-fluid {
+                      width: 90% !important;
+                 }
+                 .navber-right .cart-tool{
+                    padding-right: 7px !important;
+                }
+            /* <!-- navigation part responsive css end  --> */
+
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width:1700px){ 
+
+                /* <!-- navigation part responsive css start  --> */
+                nav .container-fluid {
+                    width: 90% !important;
+                }
+                .navber-right .cart-tool{
+                    padding-right: 7px !important;
+                }
+                /* <!-- navigation part responsive css end  --> */
+}

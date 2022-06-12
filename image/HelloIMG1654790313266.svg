@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BTTN - MOBILE - ticker close</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MODULE-GLOBAL-PROMO-TICKER" transform="translate(-1241.000000, -7.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group" transform="translate(1241.000000, 7.000000)">
+                <g id="Group" transform="translate(0.800000, 0.800000)">
+                    <polygon id="Rectangle-path" points="0 16.9142857 8.91428571 8 10.4 9.48571429 1.48571429 18.4"></polygon>
+                    <polygon id="Rectangle-path" points="10.4 6.4 16.8 0 18.4 1.6 12 8"></polygon>
+                    <polygon id="Rectangle-path" points="0 1.53333333 1.53333333 5.68434189e-15 18.4 16.8666667 16.8666667 18.4"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
