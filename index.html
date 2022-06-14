@@ -35,7 +35,8 @@
       <div class="col-md-2 col-lg-2 col-xl-2 col-2 col-sm-2">
         <div class="navber-left d-flex ">
           <a href="#" class="toggle-menubar">
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars toggle-menubar-show"></i>
+            <i class="fa fa-xmark toggle-menubar-hide"></i>
 
           </a>
           <a href="#" class="search">
@@ -71,21 +72,122 @@
       <div class="col-md-2 col-lg-2 col-xl-2 col-2 col-sm-2">
         <div class="navber-right d-flex">
           <a href="login.html" class="hand-tool">
-            <i class="fas fa-hand-sparkles"></i>
-            <p>log in</p>
+            <span><i class="fas fa-hand-sparkles"></i></span>
+            <p class="">log in</p>
           </a>
           <a href="#" class="cart-tool">
-            <i class="fa fa-shopping-bag cart-counter"></i>
+           <span> <i class="fa fa-shopping-bag cart-counter"></i></span>
+           <p>bag</p>
+            <!-- .cart bag item  -->
             <div class="cart-bag">
               <div class="cart-bag-content">
-              <table>
-                <tr> <h3>Hello</h3></tr>
-              </table>
+                <div class="cart-bag-top clearfix">
+                  <button class="cart-bag-top-left"> <i class="fa-solid fa-angle-left"></i> Keep Shopping </button>
+                   <a  class="cart-bag-top-right" href="cart.html"> View full shopping bag <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+
+               <div class="cart-bag-midle">
+                <h2>Shopping Bag</h2>
+                <p>(8 Items)</p>
+               </div>
+
+               <div class="cart-bag-product-item">
+                <div class="row">
+                  <div class="col-md-4 col-xl-4 col-lg-4 col-4 col-sm-4">
+                    <div class="cart-bag-product-img">
+                      <img src="image/product1.jpeg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-xl-8 col-lg-8 col-8 col-sm-8">
+                    <div class="cart-bag-product-content">
+                      <h3>Block Star</h3>
+                      <p>Mineral Daily Sunscreen</p>
+                      <div class="cart-bag-product-content-btn">
+                        <div class="product-counter">
+                          <button><i class="fa-solid fa-minus"></i></button>
+                          <span>1</span>
+                          <button ><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <button class="bag-cart-remove">Remove</button>
+                        <h5>$56</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+               <div class="cart-bag-product-item">
+                <div class="row">
+                  <div class="col-md-4 col-xl-4 col-lg-4 col-4 col-sm-4">
+                    <div class="cart-bag-product-img">
+                      <img src="image/product1.jpeg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-xl-8 col-lg-8 col-8 col-sm-8">
+                    <div class="cart-bag-product-content">
+                      <h3>Block Star</h3>
+                      <p>Mineral Daily Sunscreen</p>
+                      <div class="cart-bag-product-content-btn">
+                        <div class="product-counter">
+                          <button><i class="fa-solid fa-minus"></i></button>
+                          <span>1</span>
+                          <button ><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <button class="bag-cart-remove">Remove</button>
+                        <h5>$56</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+               <div class="cart-bag-product-item">
+                <div class="row">
+                  <div class="col-md-4 col-xl-4 col-lg-4 col-4 col-sm-4">
+                    <div class="cart-bag-product-img">
+                      <img src="image/product1.jpeg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-xl-8 col-lg-8 col-8 col-sm-8">
+                    <div class="cart-bag-product-content">
+                      <h3>Block Star</h3>
+                      <p>Mineral Daily Sunscreen</p>
+                      <div class="cart-bag-product-content-btn">
+                        <div class="product-counter">
+                          <button><i class="fa-solid fa-minus"></i></button>
+                          <span>1</span>
+                          <button ><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <button class="bag-cart-remove">Remove</button>
+                        <h5>$56</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+               <div class="cart-bag-product-item-bottom">
+                <div class="cart-bag-product-coupon clearfix">
+                    <h5>Coupon Code:</h5>
+                    <button>Add Coupon</button>
+                </div>
+                <div class="cart-bag-product-ammount clearfix">
+                    <h5>Grand total:</h5>
+                    <h6>$120.00</h6>
+                </div>
+               </div>
+               <div class="cart-bag-last-bottom">
+                  <h6>You've earned <b>FREE</b> Shipping</h6>
+                  <p>To use a gift card please call customer support: 888-243-8825</p>
+                  <a href="#">VIEW FULL SHOPPING BAG > </a>
+                  <div class="cart-last-bottom-btn common-btn-1">
+                    <a href="#" >Checkout</a>
+                  </div>
+               </div>
+
               </div>
+              
 
             </div>
-            
-            <p>bag</p>
+
+            <!-- ..........  -->
           </a>
         </div>
       </div>
@@ -93,13 +195,13 @@
   </div>
   <div class="row">
     <div class="col-lg-12 col-xl-12 col-md-12">
-      <div class="navber-menu">
+      <div class="navber-menu" id="navber-menu">
 
-        <ul class="d-flex justify-content-center">
+        <ul class="navber-header-all-menu">
           <li><a href="best-sellers.html" class="main-menu-link">Best Sellers</a>
           <div class="mega-dropdown-menu">
-            <div class="row  container-menu">
-              <div class="col-md-12 col-lg-12 col-xl-12">
+            <div class="row  container-menu ">
+              <div class="col-md-12 col-lg-12 col-xl-12 menu-cetagory-mobile-none">
                
                   <ul class="">
                     <li><p>By Category</p></li>
@@ -108,6 +210,32 @@
                   </ul>
                  
               </div>
+               <!-- ................ -->
+            <div class=" menu-cetagory-destop-none ">
+              <!-- .. <-- accordin start  -->
+              <div class="accordion" id="accordionExample">
+              
+                 <div class=" accordion-item">
+                   <h2 class="accordion-header" id="headingTwo">
+                     <button class=" menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                       <h3>By Category</h3>
+                     </button>
+                   </h2>
+                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                       <ul class="  menu-cetagory-destop-none-btn-item">
+                        <li><a href="#">Body & Hair Care</a></li>
+                         <li><a href="#">Skincare</a></li>
+                     </ul>
+                     </div>
+                   </div>
+                 </div>
+                   
+             </div>
+            <!-- .. <-- accordin end   -->
+         </div>
+
+         <!-- ...........  -->
             </div>
           </div>
 
@@ -241,7 +369,7 @@
                         <img src="image/HelloIMG-.jpeg" alt="">
                         <p>Disappearing Act™</p>
                       </a>
-                      <a href="">
+                      <a href="body-care-products.html">
                         <img src="image/HelloIMG2.jpeg" alt="">
                         <p>Youth Got This™</p>
                       </a>
@@ -257,7 +385,7 @@
                         <img src="image/HelloIMG5.jpeg" alt="">
                         <p>Clear Genius™</p>
                       </a>
-                      <a href="">
+                      <a href="body-care-products.html">
                         <img src="image/HelloIMG3.jpeg" alt="">
                         <p>Clear Genius™</p>
                       </a>
@@ -432,8 +560,8 @@
         <div class="col-md-5 col-lg-5 col-xl-5 col-12 col-sm-12">
           <div class="banner-item-left">
             <div class="banner-img banner-img-slide">
-              <a href="#"><img src="image/banner-img1.jpg" alt="">
-              <a href="#"><img src="image/banner-img1.jpg" alt="">
+              <a href="single-product-cart.html"><img src="image/banner-img1.jpg" alt="">
+              <a href="single-product-cart.html"><img src="image/banner-img1.jpg" alt="">
               </a>
             </div>
           </div>
@@ -500,9 +628,9 @@
           <div class="arrival-product-item">
 
             <div class="arrival-product-img">
-              <a href="#"><img src="image/product1.jpeg" alt=""></a>
+              <a href="single-product-cart.html"><img src="image/product1.jpeg" alt=""></a>
               <div class="hover-img">
-                <a href="#"><img src="image/product111.jpeg" alt=""></a>
+                <a href="single-product-cart.html"><img src="image/product111.jpeg" alt=""></a>
               </div>
               <a href="#" class="hover-btn">Quick view</a>
             </div>
@@ -528,9 +656,9 @@
           <div class="arrival-product-item">
 
             <div class="arrival-product-img">
-              <a href="#"><img src="image/product1.jpeg" alt=""></a>
+              <a href="single-product-cart.html"><img src="image/product1.jpeg" alt=""></a>
               <div class="hover-img">
-                <a href="#"><img src="image/product111.jpeg" alt=""></a>
+                <a href="single-product-cart.html"><img src="image/product111.jpeg" alt=""></a>
               </div>
               <a href="#" class="hover-btn">Quick view</a>
             </div>
@@ -556,9 +684,9 @@
           <div class="arrival-product-item">
 
             <div class="arrival-product-img">
-              <a href="#"><img src="image/product1.jpeg" alt=""></a>
+              <a href="single-product-cart.html"><img src="image/product1.jpeg" alt=""></a>
               <div class="hover-img">
-                <a href="#"><img src="image/product111.jpeg" alt=""></a>
+                <a href="single-product-cart.html"><img src="image/product111.jpeg" alt=""></a>
               </div>
               <a href="#" class="hover-btn">Quick view</a>
             </div>
@@ -891,27 +1019,27 @@
             <div class="row">
               <div class="col-md-2 col-lg-2 col-xl-2">
                 <div class="footer-logo">
-                  <a href="#"><img src="image/footer-logo.svg" alt=""></a>
+                  <a href="index.html"><img src="image/footer-logo.svg" alt=""></a>
                 </div>
               </div>
               <div class="col-md-3 col-lg-3 col-xl-3">
                 <div class="footer-menu">
                   <h3>Company</h3>
                   <ul>
-                    <li><a href="#">Who we are</a></li>
+                    <li><a href="about-us.html">Who we are</a></li>
                     <li><a href="#">Find Bliss Near You</a></li>
                     <li><a href="#">Bliss Spa</a></li>
-                    <li><a href="#">Shop</a></li>
+                    <li><a href="shop-all.html">Shop</a></li>
                   </ul>
                 </div>
 
-              </div>
+              </div> 
               <div class="col-md-3 col-lg-3 col-xl-3">
                 <div class="footer-menu">
                   <h3>Customer Care</h3>
                   <ul>
                     <li><a href="#">Gift Cards</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
                     <li><a href="#">Shipping</a></li>
                     <li><a href="#">Returns</a></li>
                     <li><a href="#">Ordering & Payment</a></li>

@@ -19,6 +19,38 @@
   
         });
 
+  // mobile-nevber js start 
+  $(document).ready(function(){
+    $('.toggle-menubar-show').click(function(){
+       $('.toggle-menubar-hide').show();
+        })
+   
+         });
+  $(document).ready(function(){
+    $('.toggle-menubar').click(function(){
+       $('#navber-menu').toggle();
+        })
+   
+         });
+  $(document).ready(function(){
+    $('.toggle-menubar-show').click(function(){
+       $('.toggle-menubar-show').hide();
+        })
+   
+         });
+  $(document).ready(function(){
+    $('.toggle-menubar-hide').click(function(){
+       $('.toggle-menubar-show').show();
+        })
+   
+         });
+  $(document).ready(function(){
+    $('.toggle-menubar-hide').click(function(){
+       $('.toggle-menubar-hide').hide();
+        })
+   
+         });
+  // mobile-nevber js end
         
 // drop-down carosel
 $(document).ready(function(){
@@ -65,7 +97,7 @@ $(document).ready(function(){
       dots: true,
       infinite: true,
       autoplay:true,
-      speed:3000,
+      speed:1000,
       slidesToShow: 1,
       adaptiveHeight: true
     });
