@@ -7,7 +7,7 @@
         });
   //  search icon      
  $(document).ready(function(){
-   $('.search').click(function(){
+   $('.search-icon-click').click(function(){
       $('#search').toggle();
        })
   
@@ -28,7 +28,7 @@
          });
   $(document).ready(function(){
     $('.toggle-menubar').click(function(){
-       $('#navber-menu').toggle();
+       $('.mobile-menu').toggle();
         })
    
          });
@@ -74,14 +74,14 @@ $(document).ready(function(){
        {
          breakpoint: 600,
          settings: {
-           slidesToShow: 2,
+           slidesToShow: 3,
            slidesToScroll: 2
          }
        },
        {
          breakpoint: 480,
          settings: {
-           slidesToShow: 1,
+           slidesToShow: 3,
            slidesToScroll: 1
          }
        }
@@ -125,14 +125,14 @@ $(document).ready(function(){
            }
          },
          {
-           breakpoint: 600,
+           breakpoint: 750,
            settings: {
              slidesToShow: 2,
              slidesToScroll: 2
            }
          },
          {
-           breakpoint: 480,
+           breakpoint: 500,
            settings: {
              slidesToShow: 1,
              slidesToScroll: 1

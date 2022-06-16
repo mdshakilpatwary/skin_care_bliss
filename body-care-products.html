@@ -35,11 +35,13 @@
       <div class="col-md-2 col-lg-2 col-xl-2 col-2 col-sm-2">
         <div class="navber-left d-flex ">
           <a href="#" class="toggle-menubar">
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars toggle-menubar-show"></i>
+            <i class="fa fa-xmark toggle-menubar-hide"></i>
 
           </a>
           <a href="#" class="search">
-            <i class="fa fa-search">
+            <i class="fa fa-search search-icon-click"></i>
+              <p>search</p>
               <div id="search">
                 <div class="container">
                   <div class="row">
@@ -54,8 +56,8 @@
                   </div>
                 </div>
               </div>
-            </i>
-            <p>search</p>
+            
+         
           </a>
           <a href="#" class="tab-mobile-none">
             <i class="fa fa-map-marker-alt"></i>
@@ -71,122 +73,122 @@
       <div class="col-md-2 col-lg-2 col-xl-2 col-2 col-sm-2">
         <div class="navber-right d-flex">
           <a href="login.html" class="hand-tool">
-            <i class="fas fa-hand-sparkles"></i>
-            <p>log in</p>
+            <span><i class="fas fa-hand-sparkles"></i></span>
+            <p class="">log in</p>
           </a>
           <a href="#" class="cart-tool">
-            <i class="fa fa-shopping-bag cart-counter"></i>           
-            <p>bag</p>
-              <!-- .cart bag item  -->
-              <div class="cart-bag">
-                <div class="cart-bag-content">
-                  <div class="cart-bag-top clearfix">
-                    <button class="cart-bag-top-left"> <i class="fa-solid fa-angle-left"></i> Keep Shopping </button>
-                     <a  class="cart-bag-top-right" href="#"> View full shopping bag <i class="fa-solid fa-angle-right"></i></a>
-                  </div>
-  
-                 <div class="cart-bag-midle">
-                  <h2>Shopping Bag</h2>
-                  <p>(8 Items)</p>
-                 </div>
-  
-                 <div class="cart-bag-product-item">
-                  <div class="row">
-                    <div class="col-md-4 col-xl-4 col-lg-4 col-4 col-sm-4">
-                      <div class="cart-bag-product-img">
-                        <img src="image/product1.jpeg" alt="">
-                      </div>
-                    </div>
-                    <div class="col-md-8 col-xl-8 col-lg-8 col-8 col-sm-8">
-                      <div class="cart-bag-product-content">
-                        <h3>Block Star</h3>
-                        <p>Mineral Daily Sunscreen</p>
-                        <div class="cart-bag-product-content-btn">
-                          <div class="product-counter">
-                            <button><i class="fa-solid fa-minus"></i></button>
-                            <span>1</span>
-                            <button ><i class="fa-solid fa-plus"></i></button>
-                          </div>
-                          <button class="bag-cart-remove">Remove</button>
-                          <h5>$56</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                 </div>
-                 <div class="cart-bag-product-item">
-                  <div class="row">
-                    <div class="col-md-4 col-xl-4 col-lg-4 col-4 col-sm-4">
-                      <div class="cart-bag-product-img">
-                        <img src="image/product1.jpeg" alt="">
-                      </div>
-                    </div>
-                    <div class="col-md-8 col-xl-8 col-lg-8 col-8 col-sm-8">
-                      <div class="cart-bag-product-content">
-                        <h3>Block Star</h3>
-                        <p>Mineral Daily Sunscreen</p>
-                        <div class="cart-bag-product-content-btn">
-                          <div class="product-counter">
-                            <button><i class="fa-solid fa-minus"></i></button>
-                            <span>1</span>
-                            <button ><i class="fa-solid fa-plus"></i></button>
-                          </div>
-                          <button class="bag-cart-remove">Remove</button>
-                          <h5>$56</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                 </div>
-                 <div class="cart-bag-product-item">
-                  <div class="row">
-                    <div class="col-md-4 col-xl-4 col-lg-4 col-4 col-sm-4">
-                      <div class="cart-bag-product-img">
-                        <img src="image/product1.jpeg" alt="">
-                      </div>
-                    </div>
-                    <div class="col-md-8 col-xl-8 col-lg-8 col-8 col-sm-8">
-                      <div class="cart-bag-product-content">
-                        <h3>Block Star</h3>
-                        <p>Mineral Daily Sunscreen</p>
-                        <div class="cart-bag-product-content-btn">
-                          <div class="product-counter">
-                            <button><i class="fa-solid fa-minus"></i></button>
-                            <span>1</span>
-                            <button ><i class="fa-solid fa-plus"></i></button>
-                          </div>
-                          <button class="bag-cart-remove">Remove</button>
-                          <h5>$56</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                 </div>
-                 <div class="cart-bag-product-item-bottom">
-                  <div class="cart-bag-product-coupon clearfix">
-                      <h5>Coupon Code:</h5>
-                      <button>Add Coupon</button>
-                  </div>
-                  <div class="cart-bag-product-ammount clearfix">
-                      <h5>Grand total:</h5>
-                      <h6>$120.00</h6>
-                  </div>
-                 </div>
-                 <div class="cart-bag-last-bottom">
-                    <h6>You've earned <b>FREE</b> Shipping</h6>
-                    <p>To use a gift card please call customer support: 888-243-8825</p>
-                    <a href="#">VIEW FULL SHOPPING BAG > </a>
-                    <div class="cart-last-bottom-btn common-btn-1">
-                      <a href="#" >Checkout</a>
-                    </div>
-                 </div>
-  
+           <span> <i class="fa fa-shopping-bag cart-counter"></i></span>
+           <p>bag</p>
+            <!-- .cart bag item  -->
+            <div class="cart-bag">
+              <div class="cart-bag-content">
+                <div class="cart-bag-top clearfix">
+                  <button class="cart-bag-top-left"> <i class="fa-solid fa-angle-left"></i> Keep Shopping </button>
+                   <a  class="cart-bag-top-right" href="cart.html"> View full shopping bag <i class="fa-solid fa-angle-right"></i></a>
                 </div>
-                
-  
+
+               <div class="cart-bag-midle">
+                <h2>Shopping Bag</h2>
+                <p>(8 Items)</p>
+               </div>
+
+               <div class="cart-bag-product-item">
+                <div class="row">
+                  <div class="col-md-4 col-xl-4 col-lg-4 col-4 col-sm-4">
+                    <div class="cart-bag-product-img">
+                      <img src="image/product1.jpeg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-xl-8 col-lg-8 col-8 col-sm-8">
+                    <div class="cart-bag-product-content">
+                      <h3>Block Star</h3>
+                      <p>Mineral Daily Sunscreen</p>
+                      <div class="cart-bag-product-content-btn">
+                        <div class="product-counter">
+                          <button><i class="fa-solid fa-minus"></i></button>
+                          <span>1</span>
+                          <button ><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <button class="bag-cart-remove">Remove</button>
+                        <h5>$56</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+               <div class="cart-bag-product-item">
+                <div class="row">
+                  <div class="col-md-4 col-xl-4 col-lg-4 col-4 col-sm-4">
+                    <div class="cart-bag-product-img">
+                      <img src="image/product1.jpeg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-xl-8 col-lg-8 col-8 col-sm-8">
+                    <div class="cart-bag-product-content">
+                      <h3>Block Star</h3>
+                      <p>Mineral Daily Sunscreen</p>
+                      <div class="cart-bag-product-content-btn">
+                        <div class="product-counter">
+                          <button><i class="fa-solid fa-minus"></i></button>
+                          <span>1</span>
+                          <button ><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <button class="bag-cart-remove">Remove</button>
+                        <h5>$56</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+               <div class="cart-bag-product-item">
+                <div class="row">
+                  <div class="col-md-4 col-xl-4 col-lg-4 col-4 col-sm-4">
+                    <div class="cart-bag-product-img">
+                      <img src="image/product1.jpeg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-xl-8 col-lg-8 col-8 col-sm-8">
+                    <div class="cart-bag-product-content">
+                      <h3>Block Star</h3>
+                      <p>Mineral Daily Sunscreen</p>
+                      <div class="cart-bag-product-content-btn">
+                        <div class="product-counter">
+                          <button><i class="fa-solid fa-minus"></i></button>
+                          <span>1</span>
+                          <button ><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <button class="bag-cart-remove">Remove</button>
+                        <h5>$56</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+               <div class="cart-bag-product-item-bottom">
+                <div class="cart-bag-product-coupon clearfix">
+                    <h5>Coupon Code:</h5>
+                    <button>Add Coupon</button>
+                </div>
+                <div class="cart-bag-product-ammount clearfix">
+                    <h5>Grand total:</h5>
+                    <h6>$120.00</h6>
+                </div>
+               </div>
+               <div class="cart-bag-last-bottom">
+                  <h6>You've earned <b>FREE</b> Shipping</h6>
+                  <p>To use a gift card please call customer support: 888-243-8825</p>
+                  <a href="#">VIEW FULL SHOPPING BAG > </a>
+                  <div class="cart-last-bottom-btn common-btn-1">
+                    <a href="#" >Checkout</a>
+                  </div>
+               </div>
+
               </div>
-  
-              <!-- ..........  -->
+              
+
+            </div>
+
+            <!-- ..........  -->
           </a>
         </div>
       </div>
@@ -194,13 +196,15 @@
   </div>
   <div class="row">
     <div class="col-lg-12 col-xl-12 col-md-12">
-      <div class="navber-menu">
+      <div class="navber-menu" id="navber-menu">
 
-        <ul class="d-flex justify-content-center">
+        <ul class="navber-header-all-menu">
           <li><a href="best-sellers.html" class="main-menu-link">Best Sellers</a>
+            
           <div class="mega-dropdown-menu">
-            <div class="row  container-menu">
-              <div class="col-md-12 col-lg-12 col-xl-12">
+            <div class="row  container-menu ">
+               <!-- ...***********.....laptop & destop sub menu itemn...start.***********.... -->
+              <div class="col-md-12 col-lg-12 col-xl-12 menu-cetagory-mobile-none">
                
                   <ul class="">
                     <li><p>By Category</p></li>
@@ -209,6 +213,7 @@
                   </ul>
                  
               </div>
+         <!-- ...........  -->
             </div>
           </div>
 
@@ -216,7 +221,8 @@
           <li><a href="skincare.html" class="main-menu-link">Skincare</a>
             <div class="mega-dropdown-menu">
               <div class="row  container-menu">
-                <div class="col-md-2 col-lg-2 col-xl-2">
+
+                <div class="col-md-2 col-lg-2 col-xl-2 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><p>By Category</p></li>
                     <li><a href="#">Bestsellers</a></li>
@@ -232,7 +238,7 @@
                     <li><a href="#">Shop All Skincare</a></li>
                   </ul>
                 </div>
-                <div class="col-md-2 col-lg-2 col-xl-2">
+                <div class="col-md-2 col-lg-2 col-xl-2 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><p>By concern</p></li>
                     <li><a href="#">Acne & Blemishes</a></li>
@@ -244,7 +250,7 @@
                     <li><a href="#">Dryness</a></li>
                   </ul>
                 </div>
-                <div class="col-md-2 col-lg-2 col-xl-2">
+                <div class="col-md-2 col-lg-2 col-xl-2 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><p>Shop By Ingredient</p></li>
                     <li><a href="#">Glycolic Acid</a></li>
@@ -256,7 +262,7 @@
                   </ul>
                   
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-6">
+                <div class="col-md-6 col-lg-6 col-xl-6 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><p>collections</p></li>
                   </ul>
@@ -311,13 +317,14 @@
                     
                   </div>
                 </div>
+   
               </div>
             </div>
           </li>
-          <li><a href="body-care-products.html" class="main-menu-link active">Body & Hair care</a>
+          <li><a href="body-care-products.html" class="main-menu-link">Body & Hair care</a>
             <div class="mega-dropdown-menu">
               <div class="row  container-menu">
-                <div class="col-md-2 col-lg-2 col-xl-2">
+                <div class="col-md-2 col-lg-2 col-xl-2 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><p>By Category</p></li>
                     <li><a href="#">Bestsellers</a></li>
@@ -332,7 +339,7 @@
                  </div>
                 <div class="col-md-2 col-lg-2 col-xl-2"> </div>
                 <div class="col-md-2 col-lg-2 col-xl-2"> </div>
-                <div class="col-md-6 col-lg-6 col-xl-6">
+                <div class="col-md-6 col-lg-6 col-xl-6 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><p>collections</p></li>
                   </ul>
@@ -342,7 +349,7 @@
                         <img src="image/HelloIMG-.jpeg" alt="">
                         <p>Disappearing Act™</p>
                       </a>
-                      <a href="">
+                      <a href="body-care-products.html">
                         <img src="image/HelloIMG2.jpeg" alt="">
                         <p>Youth Got This™</p>
                       </a>
@@ -358,7 +365,7 @@
                         <img src="image/HelloIMG5.jpeg" alt="">
                         <p>Clear Genius™</p>
                       </a>
-                      <a href="">
+                      <a href="body-care-products.html">
                         <img src="image/HelloIMG3.jpeg" alt="">
                         <p>Clear Genius™</p>
                       </a>
@@ -387,13 +394,14 @@
 
                   </div>
                 </div>
+
               </div>
             </div>
           </li>
           <li><a href="shop-all.html" class="main-menu-link">Shop All </a>
             <div class="mega-dropdown-menu">
               <div class="row  container-menu">
-                <div class="col-md-2 col-lg-2 col-xl-2">
+                <div class="col-md-2 col-lg-2 col-xl-2 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><a class="shop-category" href="#">Bliss Originals</a></li>
                     <li><a class="shop-category" href="#">Spring Must-Haves</a></li>
@@ -407,7 +415,7 @@
 
                 <div class="col-md-2 col-lg-2 col-xl-2"></div>
                 <div class="col-md-2 col-lg-2 col-xl-2"></div>
-                <div class="col-md-6 col-lg-6 col-xl-6">
+                <div class="col-md-6 col-lg-6 col-xl-6 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><p>collections</p></li>
                   </ul>
@@ -461,13 +469,15 @@
                      </div>
                   </div>
                 </div>
-              </div>
+            
+          </div>
             </div>
           </li>
           <li><a href="#" class="main-menu-link">This Is Bliss </a>
             <div class="mega-dropdown-menu">
               <div class="row  container-menu">
-                <div class="col-md-3 col-lg-3 col-xl-3">
+
+                <div class="col-md-3 col-lg-3 col-xl-3 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><p>About Bliss</p></li>
                     <li><a href="#">About Us</a></li>
@@ -479,7 +489,7 @@
                     <li><a href="#">2021 Impact Report</a></li>
                   </ul>
                 </div>
-                <div class="col-md-3 col-lg-3 col-xl-3">
+                <div class="col-md-3 col-lg-3 col-xl-3 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><p>Product details </p></li>
                     <li><a href="#"> Ingredients Glossary</a></li>
@@ -487,7 +497,7 @@
                   </ul>
                   
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-6">
+                <div class="col-md-6 col-lg-6 col-xl-6 menu-cetagory-mobile-none">
                   <ul class="">
                     <li><p>Take a Quiz</p></li>
                   </ul>
@@ -510,6 +520,8 @@
 
                   </div>
                 </div>
+                <!-- ...***********.....laptop & destop sub menu itemn...end.***********.... -->
+                
               </div>
             </div>
 
@@ -519,6 +531,282 @@
       </div>
     </div>
   </div>
+          <!-- mobil-menu start -->
+          <div class="mobile-menu">
+            <ul class="mobile-menu-item">
+              <li><a href="" class="mobile-menu-link">Best Sellers</a>
+                <!-- ...***********.....Mobile & tab Submenu item...start.***********.... -->
+                <div class=" menu-cetagory-destop-none ">
+                  <!-- .. <-- accordin start  -->
+                  <div class="accordion" id="accordionExample">
+                    <!-- .. <-- accordin item  -->
+                  
+                    <div class=" accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class=" menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapseTwo">
+                          <h3>By Category</h3>
+                        </button>
+                      </h2>
+                      <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul class="  menu-cetagory-destop-none-btn-item">
+                            <li><a href="#">Body & Hair Care</a></li>
+                            <li><a href="#">Skincare</a></li>
+                        </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- .. <-- accordin item  -->
+                      
+                </div>
+                <!-- .. <-- accordin end   -->
+            </div>
+              <!-- ...***********.....Mobile & tab Submenu item...end.***********.... -->
+              </li>
+              <li><a href="" class="mobile-menu-link">Skincare</a>
+                    <!-- ...***********.....Mobile & tab Submenu item...start.***********.... -->
+                    <div class=" menu-cetagory-destop-none ">
+                      <!-- .. <-- accordin start  -->
+                      <div class="accordion" id="accordionExample">
+
+                        <!-- .. <-- accordin item  -->
+
+                        <div class=" accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class=" menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                              <h3>By Category</h3>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <ul class="  menu-cetagory-destop-none-btn-item">
+                                <li><a href="#">Bestsellers</a></li>
+                                <li><a href="#">Mini Bliss</a></li>
+                                <li><a href="#">Cleansers</a></li>
+                                <li><a href="#">Toners</a></li>
+                                <li><a href="#">Exfoliators & Treatments</a></li>
+                                <li><a href="#">Face Masks</a></li>
+                                <li><a href="#">Moisturizers + SPF</a></li>
+                                <li><a href="#">Serums</a></li>
+                                <li><a href="#">Eye & Lip</a></li>
+                                <li><a href="#">Sale</a></li>
+                                <li><a href="#">Shop All Skincare</a></li>
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                            <!-- .. -- accordin item  -->
+                        <!-- .. <-- accordin item  -->
+
+                        <div class=" accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class=" menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <h3>By concern</h3>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <ul class="  menu-cetagory-destop-none-btn-item">
+                                <li><a href="#">Acne & Blemishes</a></li>
+                                <li><a href="#">Discoloration</a></li>
+                                <li><a href="#">Fine Lines</a></li>
+                                <li><a href="#">Dullness</a></li>
+                                <li><a href="#">Texture / Pores</a></li>
+                                <li><a href="#">Sensitive Skin</a></li>
+                                <li><a href="#">Dryness</a></li>
+                              
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                            <!-- .. -- accordin item  -->
+                        <!-- .. <-- accordin item  -->
+
+                        <div class=" accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class=" menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                              <h3>Shop By Ingredient</h3>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <ul class="  menu-cetagory-destop-none-btn-item">
+                                <li><a href="#">Glycolic Acid</a></li>
+                                <li><a href="#">Hyaluronic Acid</a></li>
+                                <li><a href="#">Niacinamide</a></li>
+                                <li><a href="#">Retinol</a></li>
+                                <li><a href="#">Salicylic Acid</a></li>
+                                <li><a href="#">Vitamin C</a></li>
+                              
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                            <!-- .. -- accordin item  -->
+
+                    </div>
+                    <!-- .. <-- accordin end   -->
+                </div>
+                  <!-- ...***********.....Mobile & tab Submenu item...end.***********.... -->
+              
+              </li>
+              <li><a href="" class="mobile-menu-link">Body & Hair care</a>
+                <!-- ...***********.....Mobile & tab Submenu item...start.***********.... -->
+                <div class=" menu-cetagory-destop-none ">
+                  <!-- .. <-- accordin start  -->
+                  <div class="accordion" id="accordionExample">
+
+                    <!-- .. <-- accordin item  -->
+
+                    <div class=" accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class=" menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseTwo">
+                          <h3>By Category</h3>
+                        </button>
+                      </h2>
+                      <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul class="  menu-cetagory-destop-none-btn-item">
+                            <li><a href="#">Bestsellers</a></li>
+                            <li><a href="#">Body Wash & Scrubs</a></li>
+                            <li><a href="#">Body Moisturizers</a></li>
+                            <li><a href="#">Hair Removal</a></li>
+                            <li><a href="#">Body Firming</a></li>
+                            <li><a href="#">Hair Care</a></li>
+                            <li><a href="#">Sale</a></li>
+                            <li><a href="#">Shop all Body and Hair Care</a></li>
+                        </ul>
+                        </div>
+                      </div>
+                    </div>
+                        <!-- .. -- accordin item  -->
+                </div>
+                <!-- .. <-- accordin end   -->
+            </div>
+              <!-- ...***********.....Mobile & tab Submenu item...end.***********.... -->
+              
+              </li>
+              <li><a href="" class="mobile-menu-link">Shop All </a>
+                <!-- ...***********.....Mobile & tab Submenu item...start.***********.... -->
+                <div class="menu-cetagory-destop-none ">
+                  <!-- .. <--  item  -->
+                          <ul class=" menu-cetagory-destop-none-btn-item">
+                            <li><a class="" href="#">Bliss Originals</a></li>
+                            <li><a class="" href="#">Spring Must-Haves</a></li>
+                            <li><a class="" href="#">New</a></li>
+                            <li><a class="" href="#">Vegan Skincare</a></li>
+                            <li><a class="" href="#">Bestsellers</a></li>
+                            <li><a class="" href="#">Sale</a></li>
+                        </ul>
+                        
+                        <!-- .. --  item  -->
+            </div>
+              <!-- ...***********.....Mobile & tab Submenu item...end.***********.... -->
+              
+              </li>
+              <li><a href="" class="mobile-menu-link">This Is Bliss </a>
+                  <!-- ...***********.....Mobile & tab Submenu item...start.***********.... -->
+                  <div class=" menu-cetagory-destop-none ">
+                    <!-- .. <-- accordin start  -->
+                    <div class="accordion" id="accordionExample">
+
+                      <!-- .. <-- accordin item  -->
+
+                      <div class=" accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class=" menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseTwo">
+                            <h3>About Bliss</h3>
+                          </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <ul class="  menu-cetagory-destop-none-btn-item">
+                              <li><a href="#">About Us</a></li>
+                              <li><a href="#">Find Us</a></li>
+                              <li><a href="#">Who We Are</a></li>
+                              <li><a href="#">Join the Happy Skin Crew</a></li>
+                              <li><a href="#">How We Give Back</a></li>
+                              <li><a href="#">Sustainability</a></li>
+                              <li><a href="#">2021 Impact Report</a></li>
+                          </ul>
+                          </div>
+                        </div>
+                      </div>
+                          <!-- .. -- accordin item  -->
+                      <!-- .. <-- accordin item  -->
+
+                      <div class=" accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class=" menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapseTwo">
+                            <h3>Product details</h3>
+                          </button>
+                        </h2>
+                        <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <ul class="  menu-cetagory-destop-none-btn-item">
+                              <li><a href="#"> Ingredients Glossary</a></li>
+                          </ul>
+                          </div>
+                        </div>
+                      </div>
+                          <!-- .. -- accordin item  -->
+                      <!-- .. <-- accordin item  -->
+
+                      <div class=" accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class=" menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapseTwo">
+                            <h3>Take a Quiz</h3>
+                          </button>
+                        </h2>
+                        <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <ul class="  menu-cetagory-destop-none-btn-item">
+                              <li><a href="#">clear skin 101</a></li>
+                              <li><a href="#">ingredients quiz</a></li>
+                              <li><a href="#">find my routine</a></li>
+                          </ul>
+                          </div>
+                        </div>
+                      </div>
+                          <!-- .. -- accordin item  -->
+                  </div>
+                  <!-- .. <-- accordin end   -->
+              </div>
+            <!-- ...***********.....Mobile & tab Submenu item...end.***********.... -->
+              
+              </li>
+            </ul>
+            <!-- mobile-menu carosel  -->
+              <h2 class="mobile-menu-bottom">collections</h2>
+            <div class="mega-menu-carosel-item dropdown-carosel">
+              <a href="">
+                <img src="image/HelloIMG-.jpeg" alt="">
+                <p>Disappearing Act™</p>
+              </a>
+              <a href="">
+                <img src="image/HelloIMG2.jpeg" alt="">
+                <p>Youth Got This™</p>
+              </a>
+              <a href="">
+                <img src="image/HelloIMG12.jpeg" alt="">
+                <p>Well Yes!™ Multivitamin Collection</p>
+              </a>
+              <a href="">
+                <img src="image/HelloIMG4.jpeg" alt="">
+                <p>Clear Genius™</p>
+              </a>
+            
+              <a href="">
+                <img src="image/HelloIMG11.jpeg" alt="">
+                <p>Clear Genius™</p>
+              </a>
+            </div>
+            <!-- mobile-menu carosel  -->
+            
+          </div>
+
+          <!-- mobile menu end  -->
+
 </nav>
 
 
@@ -528,14 +816,14 @@
    <!-- category-description part html start  -->
 <section id="category-description">
     <div class="container">
-        <div class="row">
-            <div class="col-md-7 col-xl-7 col-lg-7">
+        <div class="row description-reverse">
+            <div class="col-md-7 col-xl-7 col-lg-7 col-12 col-12">
                 <div class="category-description-left">
                     <h3>BLISS FOR EVERY BODY</h3>
                     <p>We’ve got your back – and everything else from shoulders-to-toes! Get blissed with our body-loving must-haves for supremely soft, smooth, happy skin.</p>
                 </div>
             </div>
-            <div class="col-md-5 col-xl-5 col-lg-5">
+            <div class="col-md-5 col-xl-5 col-lg-5 col-12 col-sm-12">
                 <div class="category-description-right">
                     <img src="image/descr1ption-img-2.jpg" alt="">
                 </div>
@@ -552,7 +840,7 @@
   <section id="skincare">
     <div class="container-fluid">
        <div class="row">
-        <div class="col-md-3 col-xl-3 col-lg-3 ">
+        <div class="col-md-12 col-xl-3 col-lg-3 display-none-in-tab">
             <div class=" best-sellers-category ">
               
 
@@ -600,7 +888,7 @@
                 
             </div>
         </div>
-        <div class="col-md-9 col-xl-9 col-lg-9">
+        <div class="col-md-12 col-xl-9 col-lg-9 col-12 col-sm-12">
             <div class="best-sellers-product">
                 <div class="row">
                     <div class="col-12 col-md-12 clearfix">
@@ -620,7 +908,7 @@
                 </div>
                 <div class="row g-0 product-alignmen-1">
                     <!-- ..................  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
+                    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-6 col-6">
                         <div class=" best-sellers-product-item arrival-product-item">
 
                             <div class="best-sellers-product-img arrival-product-img">
@@ -649,7 +937,7 @@
                     </div>
                     <!-- ...................  -->
                     <!-- ..................  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
+                    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-6 col-6">
                         <div class=" best-sellers-product-item arrival-product-item">
 
                             <div class="best-sellers-product-img arrival-product-img">
@@ -678,8 +966,8 @@
                     </div>
                     <!-- ...................  -->
                     <!-- ..................  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
-                        <div class=" best-sellers-product-item arrival-product-item">
+                    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-6 col-6">
+                        <div class=" best-sellers-product-item product-ads-item arrival-product-item">
 
                             <div class="best-sellers-product-img arrival-product-img">
                               <a href="#"><img src="image/product3.jpeg" alt=""></a>
@@ -707,7 +995,7 @@
                     </div>
                     <!-- ...................  -->
                     <!-- ..................  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
+                    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-6 col-6">
                         <div class=" best-sellers-product-item arrival-product-item">
 
                             <div class="best-sellers-product-img arrival-product-img">
@@ -736,7 +1024,7 @@
                     </div>
                     <!-- ...................  -->
                     <!-- ..................  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
+                    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-6 col-6">
                         <div class=" best-sellers-product-item arrival-product-item">
 
                             <div class="best-sellers-product-img arrival-product-img">
@@ -764,61 +1052,41 @@
                           </div>
                     </div>
                     <!-- ...................  -->
-                    <!-- ......... ads img.........  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
+              
+                    <!-- ..................  -->
+                    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-6 col-6">
+                        <div class=" best-sellers-product-item arrival-product-item">
+
+                            <div class="best-sellers-product-img arrival-product-img">
+                              <a href="#"><img src="image/product1.jpeg" alt=""></a>
+                              <div class="hover-img">
+                                <a href="#"><img src="image/product111.jpeg" alt=""></a>
+                              </div>
+                              <a href="#" class="hover-btn">Quick view</a>
+                            </div>
+                
+                            <div class="best-sellers-product-icon product-icon">
+                              <ul class="">
+                                <li><i class="fa fa-heart"></i></li>
+                                <li><i class="fa fa-heart"></i></li>
+                                <li><i class="fa fa-heart"></i></li>
+                                <li><i class="fa fa-heart"></i></li>
+                                <li><i class="fa fa-heart"></i></li>
+                              </ul>
+                            </div>
+                            <h3><a href="#">Block Star</a></h3>
+                            <p>Mineral Daily Sunscreen</p>
+                            <div class="best-sellers-product-btn product-cart-btn">
+                              <a href="#">Add to bag $5</a>
+                            </div>
+                          </div>
+                    </div>
+                    <!-- ...................  -->
+
+                    <!-- ..................  -->
+                    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-6 col-6">
                         <div class=" best-sellers-product-item product-ads-item arrival-product-item">
 
-                            <div class="best-sellers-product-img product-ads          arrival-product-img">
-                              <a href="#"><img src="image/product ads.webp" alt=""></a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- ...........ads img........  -->
-                    <!-- ..................  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
-                        <div class=" best-sellers-product-item arrival-product-item">
-
-                            <div class="best-sellers-product-img arrival-product-img">
-                              <a href="#"><img src="image/product1.jpeg" alt=""></a>
-                              <div class="hover-img">
-                                <a href="#"><img src="image/product111.jpeg" alt=""></a>
-                              </div>
-                              <a href="#" class="hover-btn">Quick view</a>
-                            </div>
-                
-                            <div class="best-sellers-product-icon product-icon">
-                              <ul class="">
-                                <li><i class="fa fa-heart"></i></li>
-                                <li><i class="fa fa-heart"></i></li>
-                                <li><i class="fa fa-heart"></i></li>
-                                <li><i class="fa fa-heart"></i></li>
-                                <li><i class="fa fa-heart"></i></li>
-                              </ul>
-                            </div>
-                            <h3><a href="#">Block Star</a></h3>
-                            <p>Mineral Daily Sunscreen</p>
-                            <div class="best-sellers-product-btn product-cart-btn">
-                              <a href="#">Add to bag $5</a>
-                            </div>
-                          </div>
-                    </div>
-                    <!-- ...................  -->
-                       <!-- ......... ads img.........  -->
-                       <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
-                        <div class=" best-sellers-product-item product-ads-item arrival-product-item">
-
-                            <div class="best-sellers-product-img product-ads          arrival-product-img">
-                              <a href="#"><img src="image/product ads.webp" alt=""></a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- ...........ads img........  -->
-                    <!-- ..................  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
-                        <div class=" best-sellers-product-item arrival-product-item">
-
                             <div class="best-sellers-product-img arrival-product-img">
                               <a href="#"><img src="image/product1.jpeg" alt=""></a>
                               <div class="hover-img">
@@ -845,7 +1113,7 @@
                     </div>
                     <!-- ...................  -->
                     <!-- ..................  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
+                    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-6 col-6">
                         <div class=" best-sellers-product-item arrival-product-item">
 
                             <div class="best-sellers-product-img arrival-product-img">
@@ -874,7 +1142,7 @@
                     </div>
                     <!-- ...................  -->
                     <!-- ..................  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
+                    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-6 col-6">
                         <div class=" best-sellers-product-item arrival-product-item">
 
                             <div class="best-sellers-product-img arrival-product-img">
@@ -903,7 +1171,7 @@
                     </div>
                     <!-- ...................  -->
                     <!-- ..................  -->
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 col-6">
+                    <div class="col-md-6 col-lg-4 col-xl-4 col-sm-6 col-6">
                         <div class=" best-sellers-product-item arrival-product-item">
 
                             <div class="best-sellers-product-img arrival-product-img">
@@ -984,79 +1252,174 @@
 
   <!-- footer part html start  -->
   <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-8 col-lg-8 col-xl-8">
-          <div class="footer-left container">
+    <div class="">
+      <div class="row footer-revarse-item">
+    <!-- ...***********.....leptop & destop footer menu item...start.***********.... -->
+
+        <div class="col-md-12 col-lg-8 col-xl-8 col-12 col-sm-12 ">
+          <div class="footer-left container footer-menu-cetagory-mobile-none">
             <div class="row">
               <div class="col-md-2 col-lg-2 col-xl-2">
                 <div class="footer-logo">
-                  <a href="#"><img src="image/footer-logo.svg" alt=""></a>
+                  <a href="index.html"><img src="image/footer-logo.svg" alt=""></a>
                 </div>
               </div>
-              <div class="col-md-3 col-lg-3 col-xl-3">
-                <div class="footer-menu">
-                  <h3>Company</h3>
-                  <ul>
-                    <li><a href="#">Who we are</a></li>
-                    <li><a href="#">Find Bliss Near You</a></li>
-                    <li><a href="#">Bliss Spa</a></li>
-                    <li><a href="#">Shop</a></li>
-                  </ul>
-                </div>
-
-              </div>
-              <div class="col-md-3 col-lg-3 col-xl-3">
-                <div class="footer-menu">
-                  <h3>Customer Care</h3>
-                  <ul>
-                    <li><a href="#">Gift Cards</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Shipping</a></li>
-                    <li><a href="#">Returns</a></li>
-                    <li><a href="#">Ordering & Payment</a></li>
-                    <li><a href="#">SMS Texts and Alerts</a></li>
-                  </ul>
-                </div>
-                
-              </div>
-              <div class="col-md-3 col-lg-3 col-xl-3">
-                <div class="footer-menu">
-                  <h3>THE DRY STUFF</h3>
-                  <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Accessibility Statement</a></li>
-                    <li><a href="#">Sitemap</a></li>
-                    <li><a href="#">The Fun Stuff</a></li>
-                  </ul>
-                  <h3>The Fun Stuff</h3>
-                  <div class="footer-menu-icon">
-                    <ul>
-                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                      <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
-                    </ul>
+              <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                <div class="row">
+                  <div class="col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-12">
+                    <div class="footer-menu">
+                      <h3>Company</h3>
+                      <ul>
+                        <li><a href="about-us.html">Who we are</a></li>
+                        <li><a href="#">Find Bliss Near You</a></li>
+                        <li><a href="#">Bliss Spa</a></li>
+                        <li><a href="shop-all.html">Shop</a></li>
+                      </ul>
+                    </div>
+    
+                  </div> 
+                  <div class="col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-12">
+                    <div class="footer-menu">
+                      <h3>Customer Care</h3>
+                      <ul>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Ordering & Payment</a></li>
+                        <li><a href="#">SMS Texts and Alerts</a></li>
+                      </ul>
+                    </div>
+                    
                   </div>
-                </div>
+                  <div class="col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-12">
+                    <div class="footer-menu">
+                      <h3>THE DRY STUFF</h3>
+                      <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Accessibility Statement</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">The Fun Stuff</a></li>
+                      </ul>
+                      <h3>The Fun Stuff</h3>
+                      <div class="footer-menu-icon">
+                        <ul>
+                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                          <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+    
+                  </div>
 
+                </div>
               </div>
-              <div class="col-md-1 col-lg-1 col-xl-1"></div>
+              
             </div>
+           
+
+
           </div>
+     <!-- ...***********.....leptop & destop footer menu item...end.***********.... -->
+     <!-- ...***********.....Mobile & tab footer menu item...start.***********.... -->
+           <div class=" footer-menu-cetagory-destop-none ">
+            <!-- .. <-- accordin start  -->
+            <div class="accordion" id="accordionExample">
+              <!-- .. <-- accordin item  -->
+            
+               <div class=" accordion-item">
+                 <h2 class="accordion-header" id="headingTwo">
+                   <button class=" footer-menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFooter1" aria-expanded="false" aria-controls="collapseTwo">
+                     <h3>Company</h3>
+                   </button>
+                 </h2>
+                 <div id="collapseFooter1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                   <div class="accordion-body">
+                     <ul class="  footer-menu-cetagory-destop-none-btn-item">
+                      <li><a href="about-us.html">Who we are</a></li>
+                      <li><a href="#">Find Bliss Near You</a></li>
+                      <li><a href="#">Bliss Spa</a></li>
+                      <li><a href="shop-all.html">Shop</a></li>
+                   </ul>
+                   </div>
+                 </div>
+               </div>
+               <!-- .. <-- accordin item  -->
+              <!-- .. <-- accordin item  -->
+            
+               <div class=" accordion-item">
+                 <h2 class="accordion-header" id="headingTwo">
+                   <button class=" footer-menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFooter2" aria-expanded="false" aria-controls="collapseTwo">
+                     <h3>Customer Care</h3>
+                   </button>
+                 </h2>
+                 <div id="collapseFooter2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                   <div class="accordion-body">
+                     <ul class="  footer-menu-cetagory-destop-none-btn-item">
+                      <li><a href="#">Gift Cards</a></li>
+                      <li><a href="contact-us.html">Contact Us</a></li>
+                      <li><a href="#">Shipping</a></li>
+                      <li><a href="#">Returns</a></li>
+                      <li><a href="#">Ordering & Payment</a></li>
+                      <li><a href="#">SMS Texts and Alerts</a></li>
+                   </ul>
+                   </div>
+                 </div>
+               </div>
+               <!-- .. <-- accordin item  -->
+              <!-- .. <-- accordin item  -->
+            
+               <div class=" accordion-item">
+                 <h2 class="accordion-header" id="headingTwo">
+                   <button class=" footer-menu-cetagory-destop-none-btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFooter3" aria-expanded="false" aria-controls="collapseTwo">
+                     <h3>THE DRY STUFF</h3>
+                   </button>
+                 </h2>
+                 <div id="collapseFooter3" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                   <div class="accordion-body">
+                     <ul class="  footer-menu-cetagory-destop-none-btn-item">
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms & Conditions</a></li>
+                      <li><a href="#">Accessibility Statement</a></li>
+                      <li><a href="#">Sitemap</a></li>
+                      <li><a href="#">The Fun Stuff</a></li>
+                   </ul>
+                   </div>
+                 </div>
+               </div>
+               <!-- .. <-- accordin item  -->     
+           </div>
+          <!-- .. <-- accordin end   -->
+          <div class="footer-mobile-content">
+            <img src="image/footer-logo.svg" alt="">
+          <div class="footer-menu-icon">
+            <ul>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        
+       </div>
+        <!-- ...***********.....Mobile & tab Submenu item...end.***********.... -->
 
         </div>
-        <div class="col-md-4 col-lg-4 col-xl-4">
+        <div class="col-md-12 col-lg-4 col-xl-4 col-12 col-sm-12 ">
           <div class="footer-right">
-             <h3>Hear the lastest.</h3>
-             <p>(new products, exclusive offers and other suprises)</p>
-            <div class="footer-form">
-              <form action="">
-                <input type="email" placeholder=" Enter your email....">
-              
-                <a href="#" type="Submit" class="submit-btn">Submit</a>
+            <div class="footer-right-item">
+              <h3>Hear the lastest.</h3>
+              <p>(new products, exclusive offers and other suprises)</p>
+             <div class="footer-form">
+               <form action="">
+                 <input type="email" placeholder=" Enter your email....">
                
-              </form>
+                 <a href="#" type="Submit" class="submit-btn">Submit</a>
+                
+               </form>
+             </div>
             </div>
           </div>
         </div>
