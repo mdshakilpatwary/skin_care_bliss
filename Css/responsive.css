@@ -455,6 +455,9 @@
     }
     /* contact us page  */
     /* best-sell-page-300px css start  */
+    .hover-btn{
+        display: none;
+    }
 
     .single-product-img-left img {
         width: 100% !important;
@@ -736,6 +739,28 @@
     /* cart page  */
 
     /* skin care-page-300px css start  */
+   /* slide  */
+    .product-thambnail img {
+        display: block !important;
+        height:60px;
+        width: 60px !important;
+        
+      }
+      .slider-product img {
+      
+        width: 200px !important;
+        height: 300px !important;
+        object-fit: fill;
+    }
+    .product-thambnail {
+        top: 60px !important;
+        left: 10px;
+    }
+    .slider-product {
+        left: -41px;
+        margin: 10px 0;
+    }
+    /* ........  */
     .description-reverse{
         flex-direction: column-reverse;
     }
@@ -785,12 +810,17 @@
 
     }
     /* skin care-page css end */
+    .col-grid-none{
+        display: none;
+    }
 
 }
 /* // xx-Small devices (landscape phones, 200px and up) */
 /* // x-Small devices (landscape phones, 375px and up) */
 @media (min-width:375px) and (max-width: 576px) { 
-
+    .col-grid-none{
+        display: none;
+    }
      /* navigation part start */
      .menu-cetagory-destop-none {
         width: 111%;
@@ -1246,6 +1276,30 @@
     /* login page  */
     
     /* best-sell-page-500px css start  */
+           /* slide  */
+    .product-thambnail img {
+        display: block !important;
+        height:50px;
+        width: 50px !important;
+        
+      }
+      .slider-product img {
+        max-width: 350px !important;
+        width: 350px !important;
+        height:100% !important;
+        object-fit: fill;
+    }
+    .product-thambnail {
+        top: 40px !important;
+        left: 10px;
+    }
+    .slider-product {
+        left: -41px;
+        margin: 10px 0;
+    }
+    /* ........  */
+
+
     /* about page  */
     .about-reverse-item{
         display: flex;
@@ -1414,6 +1468,9 @@
         }
         /* contact us  */
   /* skin care-page-500px css start  */
+  .hover-btn{
+    display: none;
+}
 
   .single-product-img-left img {
     width: 100% !important;
@@ -1590,7 +1647,9 @@
    
 } 
 @media (min-width: 577px) and (max-width:799px){
-        
+    .col-grid-none{
+        display: none;
+    }
     /* <!-- navigation part responsive css start  --> */
     .menu-cetagory-destop-none {
         width: 113%;
@@ -2067,6 +2126,24 @@
     }
     /* about page  */
     /* best-sell-page-700px css start  */
+              /* slide  */
+              .product-thambnail img {
+                display: block !important;
+                height:50px;
+                width: 50px !important;
+                
+              }
+          
+            .product-thambnail {
+                top: 45px !important;
+                left: 35px;
+            }
+            .slider-product {
+                left: 30px;
+                margin: 10px 0;
+            }
+            /* ........  */
+
     .product-extra-btn {
         position: absolute;
         top: -30px;
@@ -2107,6 +2184,10 @@
     }
     /* contact us  */
      /* skin care-page-700px css start  */
+     .hover-btn{
+        display: none;
+    }
+     
      .single-product-img-left img {
         width: 100% !important;
     }
@@ -2298,10 +2379,71 @@
 
     /* skin care-page css end */
 
-    
+    .col-grid-none{
+        display: none;
+    }
 }
 /* // Medium devices (tablets, 768px and up) */
+@media (min-width: 990px) and (max-width:1100px){ 
+
+    .single-product-img {
+        position: relative;
+        top: 100px;
+        left: -50px;
+    }
+}
+@media (min-width: 1101px) and (max-width:1300px){ 
+
+    .single-product-img {
+        position: relative;
+        top: 100px;
+        left: ;
+    }
+}
 @media (min-width: 800px) and (max-width:991px){ 
+    .product-thambnail img {
+        display: block !important;
+        height:70px;
+        width: 70px !important;
+        
+      }
+      .slider-product img {
+        max-width:300px !important;
+        width:330px !important;
+        height:100% !important;
+        object-fit: fill;
+       
+    }
+    .single-product-img {
+        width: 400px !important;
+        max-width: 400px !important;
+        object-fit: fill;
+        overflow: hidden;
+        height: 100% !important;
+        max-height: 100% !important;
+        position: relative;
+        top: 100px;
+        left: -50px;
+    }
+  
+    .product-thambnail {
+        top: 45px !important;
+        left: 50px;
+    }
+    .slider-product {
+        left: 30px;
+        
+        
+    }
+    /* ........  */
+
+    .col-grid-none{
+        display: none;
+    }
+    .cruelty-free-content {
+        width: 80%;
+        padding-top: 60px;
+    }
        /* <!-- navigation part responsive css start  --> */
        .cart-bag-product-item .cart-bag-product-content .cart-bag-product-content-btn {
         padding-top: 17px;
@@ -2377,6 +2519,18 @@
         }
       
         /* <!-- twin part responsive css   --> */
+
+        .product-grid-product-5 {
+            position: relative;
+            left: 0;
+        }
+        .product-grid-product-6 {
+            position: relative;
+            left: 0;
+        }
+        .product-grid-product-7 {
+            left: 0;
+        }
 
     /* footer part css start  */
     .footer-revarse-item{
@@ -2754,6 +2908,17 @@
             padding-right: 7px !important;
         }
       /* <!-- navigation part responsive css end  --> */
+      .product-grid-product-5 {
+        position: relative;
+        left: 0;
+    }
+    .product-grid-product-6 {
+        position: relative;
+        left: 0;
+    }
+    .product-grid-product-7 {
+        left: 0;
+    }
 
 
       /* <!-- footer part responsive css start  --> */
@@ -2942,7 +3107,9 @@
 
     /* skin care-page css end */
 
-
+.col-grid-none{
+    display: none;
+}
 
 }
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -3046,12 +3213,36 @@
 
 
 }
+.single-product-img {
+    position: relative;
+    top: 100px;
+}
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) and (max-width:1700px){ 
     .about-content-3 {
         padding-top: 192px;
     }
+    .single-product-img {
+      width: 600px !important;
+      max-width:600px !important;
+      position: relative;
+      left: 50px;
+      top: 50px;
+      
+    }
+    .slider-product img{
+        width: 600px !important;
+        
+    }
+    .product-thambnail img {
+        display: block !important;
+        height:100px;
+        width: 100px !important;
+        border-radius: 50%;
+        background: rgb(227, 16, 16) !important;
+        z-index: 999;
+      }
 
                 /* <!-- navigation part responsive css start  --> */
                 nav .container-fluid {

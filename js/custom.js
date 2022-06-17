@@ -93,7 +93,19 @@ $(document).ready(function(){
 
   // banner slide 
   $(document).ready(function(){
-    $('.banner-content-slide , .banner-img-slide').slick({
+    $('.banner-content-slide').slick({
+      dots: true,
+      infinite: true,
+      autoplay:true,
+      speed:1000,
+      slidesToShow: 1,
+      adaptiveHeight: true
+    });
+
+
+  })
+  $(document).ready(function(){
+    $('.banner-img-slide').slick({
       dots: true,
       infinite: true,
       autoplay:true,
@@ -163,7 +175,53 @@ function openCity(evt, cityName) {
 // tabs js end
 
 
+// cart bag scroll js start 
+
+
+// cart bag scroll js end
+new VenoBox({
+  selector: '.my-custom-links',
+});
+
+
+
+// slid 
+$('.slider-product').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  infinite: false,
+  asNavFor: '.product-thambnail',
+
+});
+$('.product-thambnail').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows: false,
+  asNavFor: '.slider-product',
+  vertical: true,
+  verticalSwiping: true,
+  focusOnSelect: true,
+  infinite: false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 750,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 3,
+      }
+    }
   
-
- 
-
+  ]
+});
